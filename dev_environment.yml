@@ -1,0 +1,8 @@
+name: dev_env
+dependencies:
+- python=3.6.2
+- pip:
+  - cookiecutter
+  - invoke
+  - gitpython
+  - python-dotenv

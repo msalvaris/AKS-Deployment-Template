@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+CONDA_BASE=$(conda info --base)
+
+conda env create -q -f dev_environment.yml
+source $CONDA_BASE/etc/profile.d/conda.sh
+conda activate dev_env && inv update && conda deactivate
+conda remove --name dev_env --all -q -y

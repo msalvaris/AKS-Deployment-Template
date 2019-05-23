@@ -1,0 +1,7 @@
+{
+    "type": [
+        "cv",
+        "nlp"
+    ],
+    "project_name": "{{cookiecutter.type}}_repo"
+}
